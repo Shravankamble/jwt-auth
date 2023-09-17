@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  fastapi:
+    build: 
+      context: ./
+    ports:
+      - 8001:8000
+    volumes:
+      - my_vol:/app
+
+volumes:
+  my_vol: 
+  driver: local
