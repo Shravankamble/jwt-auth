@@ -1,7 +1,7 @@
 from fastapi import APIRouter, status, Depends
 from fastapi.responses import Response
 from app.routers.utils import create_access_token, create_user_token
-from schemas import User, Login
+from schemas import User
 
 router = APIRouter(
     tags=["auth"]

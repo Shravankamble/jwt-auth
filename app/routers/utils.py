@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
-from jose import jwt, jwe
+from jose import jwt
 from datetime import datetime, timedelta
-from schemas import User, Login
+from schemas import User
 
 load_dotenv()
 
