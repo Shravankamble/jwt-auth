@@ -18,7 +18,7 @@ this one is more about Login and stuff (authentication).*
 
 app = FastAPI(
     title="JWT Auth",
-    version="v0.1",
+    version="v1",
     description=description,
     terms_of_service="https://github.com/Shravankamble/jwt-auth/blob/main/README.md",
     contact={
