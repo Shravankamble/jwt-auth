@@ -11,5 +11,5 @@ jobs:
     - name: Push docker image to ghcr
       run : | 
         docker login -u Shravankamble -p ${{ secrets.GT_TOKEN }} ghcr.io
-        docker build -t ghcr.io/Shravankamble/jwt-auth:v1 .
-        docker push ghcr.io/Shravankamble/jwt-auth:v1
+        docker build -t ghcr.io/shravankamble/jwt-auth:v1 .
+        docker push ghcr.io/shravankamble/jwt-auth:v1
