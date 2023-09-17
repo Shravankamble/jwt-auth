@@ -20,11 +20,10 @@ app = FastAPI(
     title="JWT Auth",
     version="v0.1",
     description=description,
-    terms_of_service="https://github.com/Shravankamble/fastapi-dockerize/blob/master/README.md",
+    terms_of_service="https://github.com/Shravankamble/jwt-auth/blob/main/README.md",
     contact={
-        "email": "org@gmail.com",
         "name": "shravan",
-        "url": "https://github.com/Shravankamble/fastapi-dockerize/issues/new"
+        "url": "https://github.com/Shravankamble/jwt-auth/issues/new"
     }
 )
 
