@@ -7,7 +7,6 @@ router = APIRouter(
     tags=["auth"]
 )
 
-
 @router.get("/auth")
 async def hello_auth():
     return "This Web Server Is Used To Create JWT Token For Authentication Purposes!!"
