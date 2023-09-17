@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps: 
-    - uses: action/checkout@v3
+    - uses: actions/checkout@v3
     - name: Push docker image to ghcr
       run : | 
         docker login -u Shravankamble -p {{ secrets.GT.ACTION }} ghcr.io
