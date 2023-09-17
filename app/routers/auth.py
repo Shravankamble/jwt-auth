@@ -9,7 +9,7 @@ router = APIRouter(
 
 @router.get("/auth")
 async def hello_auth():
-    return "This Web Server Is Used To Create JWT Token For Authentication Purposes!!"
+    return "This Fastapi API Is Used To Create JWT Token For Authentication Purposes!!"
     
 @router.post("/api/v1/jwt/dict")
 def jwt_dict(data: dict, expiration_in_minutes: int = 0):
