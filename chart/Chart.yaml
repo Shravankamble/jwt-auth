@@ -1,5 +1,0 @@
-apiVersion: v2
-version: "0.1"
-name: JWT Auth
-description: This API is used to create JWT tokens.
-appVersion: v1
