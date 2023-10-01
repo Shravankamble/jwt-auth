@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  jwt-auth:
+  - apiVersion: v2
+    appVersion: v1
+    created: "2023-10-02T02:26:03.3221261+05:30"
+    description: This API is used to create JWT tokens.
+    digest: fffa2057f76b29cf040cafad9ab10bd68b44e2e10042128691427a0ffc0f8819
+    name: jwt-auth
+    urls:
+    - jwt-auth-0.1.tgz
+    version: "0.1"
+generated: "2023-10-02T02:26:03.3221261+05:30"
