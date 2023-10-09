@@ -1,7 +1,7 @@
 import pytest, requests
 
 # this tests are in development so the host is localhost not any other host 
-ENDPOINT = "https://1ba2-183-87-183-181.ngrok-free.app/"
+ENDPOINT = "http://127.0.0.1:8000/"
 
 # this are the routes
 routes = [
@@ -17,7 +17,7 @@ def test_api_call_route_dict():
     }
     resp = requests.post(ENDPOINT + routes[0], json=payload)
     print(resp.text)
-    assert resp.status_code == 200
+    assert resp.status_code == 201
     
 def test_api_call_route_user():
     payload = {
@@ -26,4 +26,4 @@ def test_api_call_route_user():
     }
     resp = requests.post(ENDPOINT + routes[1], json=payload)
     print(resp.text)
-    assert resp.status_code == 200
+    assert resp.status_code == 201
