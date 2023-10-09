@@ -1,7 +1,7 @@
 import pytest, requests
 
 # this tests are in development so the host is localhost not any other host 
-ENDPOINT = "http://127.0.0.1:8000/"
+ENDPOINT = "https://1ba2-183-87-183-181.ngrok-free.app/"
 
 # this are the routes
 routes = [
