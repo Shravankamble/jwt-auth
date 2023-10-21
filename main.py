@@ -12,7 +12,7 @@ description = """
             
 ## User       
             
-*The second endpoint is more like a schema which takes two mandatory paramerters one is eamil and other one is password
+*The second endpoint is more like a schema which takes two mandatory paramerters one is email and other one is password
 this one is more about Login and stuff (authentication).*
 """
 
