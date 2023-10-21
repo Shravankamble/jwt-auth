@@ -11,7 +11,7 @@ jobs:
     - name: testing endpoints
       run: |
         pip install pytest
-        pytest -s -v
+        make tests
 
   build:
     needs: tests
@@ -22,4 +22,5 @@ jobs:
       run : | 
         docker login -u Shravankamble -p ${{ secrets.GT_TOKEN }} ghcr.io
         docker build -t ghcr.io/shravankamble/jwt-auth:v1 .
+        docker sbom --format spdx-json --output spdx.json ghcr.io/shravankamble/jwt-auth:v1
         docker push ghcr.io/shravankamble/jwt-auth:v1

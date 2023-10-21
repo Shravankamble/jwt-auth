@@ -1,8 +1,9 @@
+import os
 from jose import jwt
 from datetime import datetime, timedelta
 from schemas import User
 
-SECRET_KEY = "c049838c449b63b0d44e6f2ce940734ed21ed130e2e1382e80e7b21b4893b403"
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 ALGORITHM = "HS256"
 
