@@ -1,4 +1,4 @@
-tests: ./tests/test_api.py
+test-api: ./test/test_api.py
 	pytest -s -v
 
 build: ./Dockerfile

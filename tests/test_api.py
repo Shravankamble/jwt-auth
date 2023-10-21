@@ -1,7 +1,7 @@
 import requests
 
 # this tests are in development so the host is localhost not any other host 
-ENDPOINT = "https://ee4a-183-87-183-41.ngrok-free.app/"
+ENDPOINT = "http://127.0.0.1:8000/"
 
 # this are the endpoints
 routes = [
