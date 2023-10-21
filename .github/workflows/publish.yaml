@@ -11,7 +11,7 @@ jobs:
     - name: testing endpoints
       run: |
         pip install pytest
-        make tests
+        pytest -s -v
 
   build:
     needs: tests
