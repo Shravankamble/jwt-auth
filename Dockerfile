@@ -4,7 +4,7 @@ WORKDIR /app
 
 # your hash key comes here, use cmd(openssl rand -hex 32) to generate a hash,
 # this below hashed key is used for testing.
-ARG HASH_KEY=c049838c449b63b0d44e6f2ce940734ed21ed130e2e1382e80e7b21b4893b403
+ARG HASH_KEY=your hash key 🔑 comes here. 
 
 # don't share your hash in public repositories like this 
 ENV SECRET_KEY=${HASH_KEY}
